@@ -1,0 +1,197 @@
+body   {
+    background-color: rgb(171, 218, 224);
+}
+
+header{
+    background-color: rgb(200, 228, 226);
+    height: 100px;
+}
+
+nav {
+    justify-content: center;
+    display: flex;
+    background-color: #0e0f0f;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    
+    display: flex; 
+    margin: 0 60px;
+    
+}
+nav ul li a {
+    text-decoration: solid;
+    color: #fffbfb;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgb(91, 211, 161);
+}
+
+.div .images {
+    display: inline;
+    margin: right;
+    
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+p  {
+        background-color: white; 
+        padding: 20px; 
+        margin: 0; 
+        font-size: 24px; 
+        line-height: 1.6;
+    }
+
+
+
+.sec {
+    background-color: white; 
+    padding: 20px; 
+    margin: 0; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-section {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-detail {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-detail span {
+    font-weight: bold;
+}
+
+.contact-detail p {
+    margin-top: 10px;
+}
+
+.hobbies-section {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.hobbies-section h3 {
+    font-size: 24px;
+}
+
+.hobbies-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hobbies-section li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.youtube-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.youtube-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.channel-details {
+    display: flex;
+    align-items: center;
+}
+
+.channel-details img {
+    margin-right: 20px;
+}
+
+.channel-description p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.gym{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.gym img {
+    margin: 0 10px; 
+    width: 259px;
+    height: auto;
+  }
+  .gym img:nth-child(2){
+    margin: 0 10px; 
+    height: auto;
+    width: 275px;
+   
+  }
+
+  .gym img:nth-child(3){
+    width: 300px;
+  }
+
+ .gym .one{
+    transition: all 2s;
+    transform: scale(1);
+
+ }
+
+ .gym .one:hover{
+    transform: scale(1.1);
+ }
+
+ .gym .two{
+    transition: all 2s;
+    transform: scale(1);
+
+ }
+
+ .gym .two:hover{
+    transform: scale(1.1);
+ }
+
+ .gym .gymm{
+    transition: all 2s;
+    transform: scale(1);
+
+ }
+
+ .gym .gymm:hover{
+    transform: scale(1.1);
+ }

@@ -1,0 +1,116 @@
+.wrapper{
+    height: 1200px;
+    width: 100%;
+    background-color: black;
+}
+
+.menu{
+    height: 100px;
+    width: 100% ;
+    background-color: antiquewhite;
+  
+    
+}
+
+.menu ul{
+    list-style: none;
+    display: block;
+    
+}
+
+.menu ul li{
+    width: 25%;
+    float: left;
+   
+}
+.Gallery {
+    height: 600px;
+    width:100% ;
+    background-color: aqua;
+}
+
+.Gallery .one {
+    height: 200px;
+    width: 50%;
+    background-color: burlywood;
+    transition: all 2s;
+    transform: scale(1);
+    background-image: url(./1.jpg);
+    background-size: cover;
+    float: left;
+
+}
+.Gallery .one:hover{
+    transform: scale(1.5);
+}
+
+.Gallery .two {
+    height: 200px;
+    width: 50%;
+    background-color: burlywood;
+    transition: all 2s;
+    transform: rotate(0deg);
+    background-image: url(./2.jpg);
+    background-size: cover;
+    float: left;
+}
+
+.Gallery .two:hover{
+    transform: rotate(180deg);
+}
+.Gallery .three {
+    height: 200px;
+    width: 50%;
+    background-color: burlywood;
+    transition: all 2s;
+    transform: rotate(0deg);
+    background-image: url(./3.jpg);
+    background-size: cover;
+    float: left;
+}
+.Gallery .three:hover{
+    transform:skewX(-20deg) ;
+}
+
+
+.Gallery .four{
+    height: 200px;
+    width: 50%;
+    background-color: burlywood;
+    transition: all 2s;
+    transform: rotate(0deg);
+    background-image: url(./img/picture-a-captivating-scene-of-a-tranquil-lake-at-sunset-ai-generative-photo.jpg);
+    background-size: cover;
+    float: left;
+}
+.Gallery .four:hover{
+    transform:rotate(20deg) ;
+}
+.Gallery .five {
+    height: 200px;
+    width: 50%;
+    background-color: burlywood;
+    transition: all 2s;
+    transform: scale(1);
+    background-image: url(./img/picture-en3dnh2zi84sgt3t.jpg);
+    background-size: cover;
+    float: left;
+}
+
+.Gallery .five:hover{
+    transform:scale(1.3) ;
+}
+
+.Gallery .six {
+    height: 200px;
+    width: 50%;
+    background-color: burlywood;
+    transition: all 2s;
+    transform: rotate(0deg);
+    background-image: url(./img/tree-736885_1280.jpg);
+    background-size: cover;
+    float: left;
+}
+.Gallery .six:hover{
+    transform:rotate(30000deg) ;
+}
